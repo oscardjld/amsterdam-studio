@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Amsterdam Studio | High-End Production Studio
 
-## Getting Started
+<p align="center">
+  <strong>"WE PRINT THE BOLD"</strong><br />
+  <em>The Maracaibo-based studio where technical precision meets bold aesthetics.</em>
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💎 Project Overview
+**Amsterdam Studio** es una plataforma web de alto impacto visual diseñada para exhibir servicios de producción gráfica premium. El objetivo principal fue crear una experiencia de usuario (UX) fluida y minimalista que refleje la calidad artesanal de productos como Neones, Rotulados y Gran Formato.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> **Status:** MVP Finalizado / En fase de despliegue.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tech Stack & Architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este proyecto fue construido utilizando las tecnologías más modernas del ecosistema de React para garantizar rendimiento y escalabilidad:
 
-## Learn More
+* **Frontend Framework:** [Next.js 14+](https://nextjs.org/) (App Router & Server Components).
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) para una arquitectura de diseño basada en utilidades.
+* **Animations:** [Framer Motion](https://www.framer.com/motion/) para transiciones de estado, efectos Parallax y Bento Grid dinámicos.
+* **Icons & Assets:** Lucide React & Next/Image (Optimización de assets para Core Web Vitals).
+* **Deployment:** Configurado para CI/CD en **Netlify**.
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Bento Grid Gallery:** Una disposición asimétrica y responsiva para mostrar el portafolio de trabajos realizados.
+* **Dynamic Parallax:** Efectos de profundidad en imágenes de producción para mantener el engagement del usuario.
+* **Modern UI/UX:** Interfaz limpia (White-label style) con tipografías bold e itálicas que refuerzan la identidad de marca.
+* **Responsive Engine:** Adaptabilidad total desde dispositivos móviles hasta monitores Ultra-Wide.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Installation & Setup
 
-## Deploy on Vercel
+Si deseas replicar el entorno de desarrollo localmente:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone [https://github.com/oscardjld/amsterdam-studio.git](https://github.com/oscardjld/amsterdam-studio.git)
+    ```
+2.  **Instalar dependencias:**
+    ```bash
+    npm install
+    ```
+3.  **Ejecutar entorno de desarrollo:**
+    ```bash
+    npm run dev
+    ```
+4.  **Build de producción:**
+    ```bash
+    npm run build
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+---
+ **Oscar Lopez (Russo)** 
