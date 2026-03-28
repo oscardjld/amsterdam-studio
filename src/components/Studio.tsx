@@ -6,7 +6,7 @@ export const Studio = () => {
         <section id="studio" className="px-6 py-32 md:px-12 lg:px-24 bg-black text-white overflow-hidden">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             
-            {/* Lado Izquierdo: Texto Impactante */}
+            {/* Lado Izquierdo */}
             <motion.div
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -38,7 +38,7 @@ export const Studio = () => {
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
             className="relative aspect-square flex items-center justify-center border border-white/10 rounded-sm bg-neutral-900/50"
             >
-            {/* Un círculo sutil que brilla con el color morado de la marca */}
+            {/* el círculo  */}
             <div className="absolute w-64 h-64 bg-[#8F00FF]/20 blur-[120px] rounded-full" />
             
             <div className="z-10 text-center">

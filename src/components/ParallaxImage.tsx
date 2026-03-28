@@ -9,13 +9,13 @@ export const ParallaxImage = ({ src }: { src: string }) => {
         offset: ["start end", "end start"]
     });
 
-    // Esto mueve la imagen de -10% a 10% de su posición original
+    
     const y = useTransform(scrollYProgress, [0, 1], ["-10%", "10%"]);
 
     return (
         <div ref={ref} className="w-full h-full overflow-hidden relative">
         <motion.div 
-            style={{ y, height: "120%", top: "-10%" }} // La imagen es más alta que el contenedor para que tenga espacio para moverse
+            style={{ y, height: "120%", top: "-10%" }} // La imagen es más alta que el 
             className="absolute inset-0"
         >
             <div 

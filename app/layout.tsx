@@ -24,10 +24,10 @@ export default function RootLayout({
   return (
     <html lang="es" className="scroll-smooth">
       <body className={inter.className}>
-        {/* Navbar persistente en la parte superior */}
+        {/* Navbar */}
         <Navbar />
         
-        {/* Contenido principal (Hero y Galería) */}
+        {/* Contenido principal */}
         <main>
           {children}
         </main>

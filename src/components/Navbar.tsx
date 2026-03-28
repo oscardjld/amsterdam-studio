@@ -22,11 +22,11 @@ export const Navbar = () => {
                     <a href="#services" className="hover:line-through transition-all">Services</a>
                 </li>
                 <li>
-                    {/* STUDIO apunta a la sección oscura con ID #studio */}
+                    {/* STUDIO  */}
                     <a href="#studio" className="hover:line-through transition-all">Studio</a>
                 </li>
                 <li>
-                    {/* CONTACT apunta ahora al ID #footer */}
+                    {/* CONTACT */}
                     <a 
                         href="#footer" 
                         className="bg-black text-white px-5 py-2.5 rounded-full hover:scale-105 transition-transform cursor-pointer leading-none flex items-center justify-center"

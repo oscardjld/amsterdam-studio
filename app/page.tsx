@@ -40,7 +40,7 @@ export default function Home() {
       <section id="work" className="px-6 py-20 md:px-12 lg:px-24 bg-black text-white">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 auto-rows-[350px] md:auto-rows-[450px]">
           
-          {/* Bloque 1: NEON CUSTOM (Grande) */}
+          {/* Bloque 1 */}
           <motion.div 
             whileHover={{ scale: 0.99 }}
             className="md:col-span-8 bg-neutral-900 overflow-hidden group relative rounded-sm cursor-pointer"
@@ -77,7 +77,7 @@ export default function Home() {
               <ParallaxImage src="/trabajo10.jpg" />
           </motion.div>
 
-          {/* Bloque 4: LARGE FORMAT (Grande) */}
+          {/* Bloque 4 */}
           <motion.div 
             whileHover={{ scale: 0.99 }}
             className="md:col-span-8 bg-neutral-800 overflow-hidden group relative rounded-sm cursor-pointer"

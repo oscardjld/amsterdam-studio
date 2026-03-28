@@ -56,7 +56,7 @@ export const Services = () => {
                 className="text-5xl md:text-8xl font-black italic tracking-tighter uppercase inline-block relative"
             >
                 <span className="text-black">Our</span> <span className="text-neutral-300">Services.</span>
-                {/* Línea decorativa minimalista */}
+                
                 <motion.div 
                 initial={{ width: 0 }}
                 whileInView={{ width: "100%" }}
@@ -74,7 +74,7 @@ export const Services = () => {
             </motion.p>
             </div>
 
-            {/* Lista de Servicios en grid (cascada animada) */}
+            {/* cascada animada */}
             <motion.ul
             variants={containerVariants}
             initial="hidden"

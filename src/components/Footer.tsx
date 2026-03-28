@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
             
-            {/* Lado Izquierdo: Big Text */}
+            {/* Big Text */}
             <div className="flex flex-col gap-8">
                 <h2 className="text-[10vw] md:text-[6vw] font-black leading-[0.85] tracking-tighter uppercase">
                 Let's make <br /> it <span className="text-neutral-500">Real.</span>
@@ -17,7 +17,7 @@ export const Footer = () => {
                 </button>
             </div>
 
-            {/* Lado Derecho: Info */}
+            {/* Info */}
             <div className="grid grid-cols-2 gap-8 md:pt-10">
                 <div className="flex flex-col gap-4">
                 <span className="text-[10px] uppercase tracking-widest font-bold text-gray-400">Location</span>
